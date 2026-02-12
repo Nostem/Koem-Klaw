@@ -2,151 +2,366 @@
   "week_ending": "2026-02-12",
   "rankings": [
     {
-      "win_rate": 0.8,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 95,
-      "score": 0.7212042181243754,
-      "metrics_mode": "mock",
-      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
-      "name": "rwo",
-      "category": "Random"
-    },
-    {
-      "win_rate": 0.77,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 94,
-      "score": 0.7092042181243754,
-      "metrics_mode": "mock",
-      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
-      "name": "tbs8t",
-      "category": "NBA"
-    },
-    {
-      "win_rate": 0.77,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 84,
-      "score": 0.7092042181243754,
-      "metrics_mode": "mock",
-      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
-      "name": "Sharky6999",
-      "category": "Bond Markets"
-    },
-    {
-      "win_rate": 0.77,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 94,
-      "score": 0.7092042181243754,
-      "metrics_mode": "mock",
-      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
-      "name": "xdd07070",
-      "category": "CSGo & LoL"
-    },
-    {
-      "win_rate": 0.77,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 94,
-      "score": 0.7092042181243754,
-      "metrics_mode": "mock",
-      "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
-      "name": "BeefSlayer",
-      "category": "Random"
-    },
-    {
-      "win_rate": 0.68,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 81,
-      "score": 0.6732042181243754,
-      "metrics_mode": "mock",
+      "realized_pnl_usd": 162.2,
+      "unrealized_pnl_usd": 0.0,
+      "total_pnl_usd": 162.2,
+      "win_rate": 1.0,
+      "avg_roi": 0.259,
+      "consecutive_losses": 0,
+      "inactive_days": 0.6,
+      "consistency": 1.0,
+      "recency": 1.0,
+      "num_closed_trades": 1,
+      "current_prices_available": false,
+      "open_assets": 11,
+      "unpriced_open_assets": 11,
+      "metrics_mode": "real",
+      "total_trades_30d": 81,
+      "score": 0.7777,
+      "threshold_flags": {
+        "low_score": false,
+        "low_win_rate": false,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 1.0,
+        "avg_roi": 0.259,
+        "consistency": 1.0,
+        "recency": 1.0
+      },
       "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
       "name": "LlamaEnjoyer",
       "category": "High Frequency"
     },
     {
-      "win_rate": 0.65,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
-      "recency": 1,
-      "total_trades": 100,
-      "score": 0.6612042181243754,
-      "metrics_mode": "mock",
+      "realized_pnl_usd": -344.19,
+      "unrealized_pnl_usd": 35.78,
+      "total_pnl_usd": -308.4,
+      "win_rate": 0.0,
+      "avg_roi": -0.8792,
+      "consecutive_losses": 2,
+      "inactive_days": 0.1,
+      "consistency": 0.8552,
+      "recency": 1.0,
+      "num_closed_trades": 2,
+      "current_prices_available": true,
+      "open_assets": 8,
+      "unpriced_open_assets": 5,
+      "metrics_mode": "real",
+      "total_trades_30d": 94,
+      "score": 0.27104,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.8552,
+        "recency": 1.0
+      },
+      "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
+      "name": "BeefSlayer",
+      "category": "Random"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 0.0,
+      "total_pnl_usd": 0.0,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 3.9,
+      "consistency": 0.0,
+      "recency": 0.0,
+      "num_closed_trades": 0,
+      "current_prices_available": false,
+      "open_assets": 1,
+      "unpriced_open_assets": 1,
+      "metrics_mode": "real",
+      "total_trades_30d": 94,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
+      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
+      "name": "tbs8t",
+      "category": "NBA"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 0.0,
+      "total_pnl_usd": 0.0,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 9.0,
+      "consistency": 0.0,
+      "recency": 0.0,
+      "num_closed_trades": 0,
+      "current_prices_available": false,
+      "open_assets": 2,
+      "unpriced_open_assets": 2,
+      "metrics_mode": "real",
+      "total_trades_30d": 98,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": true
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
+      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
+      "name": "ForesightOracle",
+      "category": "Bond Markets"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 244.74,
+      "total_pnl_usd": 244.74,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 0.4,
+      "consistency": 0.0,
+      "recency": 0.0,
+      "num_closed_trades": 0,
+      "current_prices_available": true,
+      "open_assets": 1,
+      "unpriced_open_assets": 0,
+      "metrics_mode": "real",
+      "total_trades_30d": 100,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
       "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
       "name": "033",
       "category": "Bond Markets"
     },
     {
-      "win_rate": 0.89,
-      "avg_roi": 0.42500000000000004,
-      "consistency": 0.8685210906218767,
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 0.06,
+      "total_pnl_usd": 0.06,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 0.0,
+      "consistency": 0.0,
       "recency": 0.0,
-      "total_trades": 98,
-      "score": 0.6572042181243754,
-      "metrics_mode": "mock",
-      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
-      "name": "ForesightOracle",
+      "num_closed_trades": 0,
+      "current_prices_available": true,
+      "open_assets": 13,
+      "unpriced_open_assets": 11,
+      "metrics_mode": "real",
+      "total_trades_30d": 84,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
+      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
+      "name": "Sharky6999",
       "category": "Bond Markets"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": -12.68,
+      "total_pnl_usd": -12.68,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 0.1,
+      "consistency": 0.0,
+      "recency": 0.0,
+      "num_closed_trades": 0,
+      "current_prices_available": true,
+      "open_assets": 4,
+      "unpriced_open_assets": 3,
+      "metrics_mode": "real",
+      "total_trades_30d": 94,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
+      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
+      "name": "xdd07070",
+      "category": "CSGo & LoL"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 32.54,
+      "total_pnl_usd": 32.54,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 0.1,
+      "consistency": 0.0,
+      "recency": 0.0,
+      "num_closed_trades": 0,
+      "current_prices_available": true,
+      "open_assets": 7,
+      "unpriced_open_assets": 5,
+      "metrics_mode": "real",
+      "total_trades_30d": 95,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
+      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
+      "name": "rwo",
+      "category": "Random"
     }
   ],
   "recommendations": [
     {
-      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
-      "name": "rwo",
+      "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
+      "name": "LlamaEnjoyer",
+      "category": "High Frequency",
+      "score": 0.7777
+    },
+    {
+      "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
+      "name": "BeefSlayer",
       "category": "Random",
-      "score": 0.7212042181243754
+      "score": 0.27104
     },
     {
       "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
       "name": "tbs8t",
       "category": "NBA",
-      "score": 0.7092042181243754
-    },
-    {
-      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
-      "name": "Sharky6999",
-      "category": "Bond Markets",
-      "score": 0.7092042181243754
+      "score": 0.0
     }
   ],
   "remove_candidates": [
     {
-      "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
-      "name": "LlamaEnjoyer",
-      "category": "High Frequency",
-      "score": 0.6732042181243754,
-      "win_rate": 0.68,
+      "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
+      "name": "BeefSlayer",
+      "category": "Random",
+      "score": 0.27104,
+      "win_rate": 0.0,
       "reasons": [
-        "score<0.7"
+        "score<0.7",
+        "win_rate<0.55"
       ]
     },
     {
-      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
-      "name": "033",
-      "category": "Bond Markets",
-      "score": 0.6612042181243754,
-      "win_rate": 0.65,
+      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
+      "name": "tbs8t",
+      "category": "NBA",
+      "score": 0.0,
+      "win_rate": 0.0,
       "reasons": [
-        "score<0.7"
+        "score<0.7",
+        "win_rate<0.55"
       ]
     },
     {
       "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
       "name": "ForesightOracle",
       "category": "Bond Markets",
-      "score": 0.6572042181243754,
-      "win_rate": 0.89,
+      "score": 0.0,
+      "win_rate": 0.0,
       "reasons": [
-        "score<0.7"
+        "score<0.7",
+        "win_rate<0.55"
+      ]
+    },
+    {
+      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
+      "name": "033",
+      "category": "Bond Markets",
+      "score": 0.0,
+      "win_rate": 0.0,
+      "reasons": [
+        "score<0.7",
+        "win_rate<0.55"
+      ]
+    },
+    {
+      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
+      "name": "Sharky6999",
+      "category": "Bond Markets",
+      "score": 0.0,
+      "win_rate": 0.0,
+      "reasons": [
+        "score<0.7",
+        "win_rate<0.55"
+      ]
+    },
+    {
+      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
+      "name": "xdd07070",
+      "category": "CSGo & LoL",
+      "score": 0.0,
+      "win_rate": 0.0,
+      "reasons": [
+        "score<0.7",
+        "win_rate<0.55"
+      ]
+    },
+    {
+      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
+      "name": "rwo",
+      "category": "Random",
+      "score": 0.0,
+      "win_rate": 0.0,
+      "reasons": [
+        "score<0.7",
+        "win_rate<0.55"
       ]
     }
   ],

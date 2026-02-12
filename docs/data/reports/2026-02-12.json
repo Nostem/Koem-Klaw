@@ -1,7 +1,7 @@
 {
   "date": "2026-02-12",
-  "total_pnl": 9.464799999999999,
-  "daily_pnl": 9.464799999999999,
+  "total_pnl": 9.505999999999998,
+  "daily_pnl": 9.505999999999998,
   "wallet_count": 8,
   "positions": [
     {
@@ -67,13 +67,13 @@
       "size": 8.23,
       "avgPrice": 0.33,
       "initialValue": 2.7159,
-      "currentValue": 3.3331,
-      "cashPnl": 0.6171,
-      "percentPnl": 22.7217,
+      "currentValue": 3.3743,
+      "cashPnl": 0.6583,
+      "percentPnl": 24.2387,
       "totalBought": 8.23,
       "realizedPnl": 0,
-      "percentRealizedPnl": 22.7254,
-      "curPrice": 0.405,
+      "percentRealizedPnl": 24.2424,
+      "curPrice": 0.41,
       "redeemable": false,
       "mergeable": false,
       "title": "Will the highest temperature in New York City be between 34-35\u00b0F on February 12?",
