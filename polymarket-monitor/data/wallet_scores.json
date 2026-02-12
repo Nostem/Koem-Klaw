@@ -1,0 +1,29 @@
+[
+  {
+    "win_rate": 0.92,
+    "avg_roi": 0.42500000000000004,
+    "consistency": 0.8685210906218767,
+    "recency": 0.7627118644067796,
+    "total_trades": 59,
+    "score": 0.7454754045650533,
+    "wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae"
+  },
+  {
+    "win_rate": 0.8,
+    "avg_roi": 0.42500000000000004,
+    "consistency": 0.8685210906218767,
+    "recency": 1,
+    "total_trades": 65,
+    "score": 0.7212042181243754,
+    "wallet": "0x876426b52898c295848f56760dd24b55eda2604a"
+  },
+  {
+    "win_rate": 0.77,
+    "avg_roi": 0.42500000000000004,
+    "consistency": 0.8685210906218767,
+    "recency": 1,
+    "total_trades": 84,
+    "score": 0.7092042181243754,
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2"
+  }
+]
