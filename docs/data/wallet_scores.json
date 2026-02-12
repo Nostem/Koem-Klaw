@@ -1,45 +1,12 @@
 [
   {
-    "realized_pnl_usd": 443472.91,
-    "unrealized_pnl_usd": -197688.93,
-    "total_pnl_usd": 245783.98,
-    "win_rate": 1.0,
-    "avg_roi": 0.685,
-    "consecutive_losses": 0,
-    "inactive_days": 0.6,
-    "consistency": 0.839,
-    "recency": 1.0,
-    "num_closed_trades": 3,
-    "current_prices_available": true,
-    "open_assets": 2,
-    "unpriced_open_assets": 0,
-    "metrics_mode": "real",
-    "total_trades_30d": 59,
-    "score": 0.8733000000000001,
-    "threshold_flags": {
-      "low_score": false,
-      "low_win_rate": false,
-      "high_consec_losses": false,
-      "high_inactive_days": false
-    },
-    "score_components": {
-      "win_rate": 1.0,
-      "avg_roi": 0.685,
-      "consistency": 0.839,
-      "recency": 1.0
-    },
-    "wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
-    "name": "Leaderboard Top",
-    "category": "External"
-  },
-  {
     "realized_pnl_usd": 902.68,
     "unrealized_pnl_usd": 32.54,
     "total_pnl_usd": 935.22,
     "win_rate": 1.0,
     "avg_roi": 0.3299,
     "consecutive_losses": 0,
-    "inactive_days": 0.2,
+    "inactive_days": 0.3,
     "consistency": 0.6133,
     "recency": 1.0,
     "num_closed_trades": 4,
@@ -72,7 +39,7 @@
     "win_rate": 0.8947,
     "avg_roi": 0.3962,
     "consecutive_losses": 0,
-    "inactive_days": 0.0,
+    "inactive_days": 0.1,
     "consistency": 0.7023,
     "recency": 0.0,
     "num_closed_trades": 19,
@@ -138,16 +105,16 @@
     "win_rate": 0.3955,
     "avg_roi": 1.8545,
     "consecutive_losses": 0,
-    "inactive_days": 0.0,
+    "inactive_days": 0.1,
     "consistency": 0.0406,
-    "recency": 0.1751,
+    "recency": 0.1726,
     "num_closed_trades": 493,
     "current_prices_available": true,
     "open_assets": 325,
     "unpriced_open_assets": 324,
     "metrics_mode": "real",
     "total_trades_30d": 2075,
-    "score": 0.48383000000000004,
+    "score": 0.48358,
     "threshold_flags": {
       "low_score": true,
       "low_win_rate": true,
@@ -158,7 +125,7 @@
       "win_rate": 0.3955,
       "avg_roi": 1.0,
       "consistency": 0.0406,
-      "recency": 0.1751
+      "recency": 0.1726
     },
     "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
     "name": "BeefSlayer",
@@ -295,71 +262,5 @@
     "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
     "name": "Sharky6999",
     "category": "Bond Markets"
-  },
-  {
-    "realized_pnl_usd": 0.0,
-    "unrealized_pnl_usd": 0.0,
-    "total_pnl_usd": 0.0,
-    "win_rate": 0.0,
-    "avg_roi": 0.0,
-    "consecutive_losses": 0,
-    "inactive_days": 0.7,
-    "consistency": 0.0,
-    "recency": 0.0,
-    "num_closed_trades": 0,
-    "current_prices_available": false,
-    "open_assets": 4,
-    "unpriced_open_assets": 4,
-    "metrics_mode": "real",
-    "total_trades_30d": 65,
-    "score": 0.0,
-    "threshold_flags": {
-      "low_score": true,
-      "low_win_rate": true,
-      "high_consec_losses": false,
-      "high_inactive_days": false
-    },
-    "score_components": {
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consistency": 0.0,
-      "recency": 0.0
-    },
-    "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
-    "name": "Leaderboard Top",
-    "category": "External"
-  },
-  {
-    "realized_pnl_usd": 0.0,
-    "unrealized_pnl_usd": 39489.21,
-    "total_pnl_usd": 39489.21,
-    "win_rate": 0.0,
-    "avg_roi": 0.0,
-    "consecutive_losses": 0,
-    "inactive_days": 0.4,
-    "consistency": 0.0,
-    "recency": 0.0,
-    "num_closed_trades": 0,
-    "current_prices_available": true,
-    "open_assets": 10,
-    "unpriced_open_assets": 7,
-    "metrics_mode": "real",
-    "total_trades_30d": 84,
-    "score": 0.0,
-    "threshold_flags": {
-      "low_score": true,
-      "low_win_rate": true,
-      "high_consec_losses": false,
-      "high_inactive_days": false
-    },
-    "score_components": {
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consistency": 0.0,
-      "recency": 0.0
-    },
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "name": "Leaderboard Top",
-    "category": "External"
   }
 ]
