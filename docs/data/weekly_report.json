@@ -2,22 +2,22 @@
   "week_ending": "2026-02-12",
   "rankings": [
     {
-      "realized_pnl_usd": 162.2,
-      "unrealized_pnl_usd": 0.0,
-      "total_pnl_usd": 162.2,
+      "realized_pnl_usd": 443472.91,
+      "unrealized_pnl_usd": -197688.93,
+      "total_pnl_usd": 245783.98,
       "win_rate": 1.0,
-      "avg_roi": 0.259,
+      "avg_roi": 0.685,
       "consecutive_losses": 0,
       "inactive_days": 0.6,
-      "consistency": 1.0,
+      "consistency": 0.839,
       "recency": 1.0,
-      "num_closed_trades": 1,
-      "current_prices_available": false,
-      "open_assets": 11,
-      "unpriced_open_assets": 11,
+      "num_closed_trades": 3,
+      "current_prices_available": true,
+      "open_assets": 2,
+      "unpriced_open_assets": 0,
       "metrics_mode": "real",
-      "total_trades_30d": 81,
-      "score": 0.7777,
+      "total_trades_30d": 59,
+      "score": 0.8733000000000001,
       "threshold_flags": {
         "low_score": false,
         "low_win_rate": false,
@@ -26,31 +26,130 @@
       },
       "score_components": {
         "win_rate": 1.0,
-        "avg_roi": 0.259,
-        "consistency": 1.0,
+        "avg_roi": 0.685,
+        "consistency": 0.839,
         "recency": 1.0
+      },
+      "wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+      "name": "Leaderboard Top",
+      "category": "External"
+    },
+    {
+      "realized_pnl_usd": 902.68,
+      "unrealized_pnl_usd": 32.54,
+      "total_pnl_usd": 935.22,
+      "win_rate": 1.0,
+      "avg_roi": 0.3299,
+      "consecutive_losses": 0,
+      "inactive_days": 0.2,
+      "consistency": 0.6133,
+      "recency": 1.0,
+      "num_closed_trades": 4,
+      "current_prices_available": true,
+      "open_assets": 126,
+      "unpriced_open_assets": 124,
+      "metrics_mode": "real",
+      "total_trades_30d": 3383,
+      "score": 0.72163,
+      "threshold_flags": {
+        "low_score": false,
+        "low_win_rate": false,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 1.0,
+        "avg_roi": 0.3299,
+        "consistency": 0.6133,
+        "recency": 1.0
+      },
+      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
+      "name": "rwo",
+      "category": "Random"
+    },
+    {
+      "realized_pnl_usd": 73750.78,
+      "unrealized_pnl_usd": -10428.46,
+      "total_pnl_usd": 63322.33,
+      "win_rate": 0.8947,
+      "avg_roi": 0.3962,
+      "consecutive_losses": 0,
+      "inactive_days": 0.0,
+      "consistency": 0.7023,
+      "recency": 0.0,
+      "num_closed_trades": 19,
+      "current_prices_available": true,
+      "open_assets": 33,
+      "unpriced_open_assets": 30,
+      "metrics_mode": "real",
+      "total_trades_30d": 521,
+      "score": 0.6172000000000001,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": false,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.8947,
+        "avg_roi": 0.3962,
+        "consistency": 0.7023,
+        "recency": 0.0
+      },
+      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
+      "name": "xdd07070",
+      "category": "CSGo & LoL"
+    },
+    {
+      "realized_pnl_usd": 10331.28,
+      "unrealized_pnl_usd": 0.0,
+      "total_pnl_usd": 10331.28,
+      "win_rate": 0.965,
+      "avg_roi": 0.2429,
+      "consecutive_losses": 0,
+      "inactive_days": 0.7,
+      "consistency": 0.391,
+      "recency": 0.1479,
+      "num_closed_trades": 1258,
+      "current_prices_available": false,
+      "open_assets": 60,
+      "unpriced_open_assets": 60,
+      "metrics_mode": "real",
+      "total_trades_30d": 3393,
+      "score": 0.55186,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": false,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.965,
+        "avg_roi": 0.2429,
+        "consistency": 0.391,
+        "recency": 0.1479
       },
       "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
       "name": "LlamaEnjoyer",
       "category": "High Frequency"
     },
     {
-      "realized_pnl_usd": -344.19,
-      "unrealized_pnl_usd": 35.78,
-      "total_pnl_usd": -308.4,
-      "win_rate": 0.0,
-      "avg_roi": -0.8792,
-      "consecutive_losses": 2,
-      "inactive_days": 0.1,
-      "consistency": 0.8552,
-      "recency": 1.0,
-      "num_closed_trades": 2,
+      "realized_pnl_usd": -498.11,
+      "unrealized_pnl_usd": -15.27,
+      "total_pnl_usd": -513.39,
+      "win_rate": 0.3955,
+      "avg_roi": 1.8545,
+      "consecutive_losses": 0,
+      "inactive_days": 0.0,
+      "consistency": 0.0406,
+      "recency": 0.1751,
+      "num_closed_trades": 493,
       "current_prices_available": true,
-      "open_assets": 8,
-      "unpriced_open_assets": 5,
+      "open_assets": 325,
+      "unpriced_open_assets": 324,
       "metrics_mode": "real",
-      "total_trades_30d": 94,
-      "score": 0.27104,
+      "total_trades_30d": 2075,
+      "score": 0.48383000000000004,
       "threshold_flags": {
         "low_score": true,
         "low_win_rate": true,
@@ -58,31 +157,97 @@
         "high_inactive_days": false
       },
       "score_components": {
-        "win_rate": 0.0,
-        "avg_roi": 0.0,
-        "consistency": 0.8552,
-        "recency": 1.0
+        "win_rate": 0.3955,
+        "avg_roi": 1.0,
+        "consistency": 0.0406,
+        "recency": 0.1751
       },
       "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
       "name": "BeefSlayer",
       "category": "Random"
     },
     {
-      "realized_pnl_usd": 0.0,
+      "realized_pnl_usd": 4.29,
+      "unrealized_pnl_usd": 305.73,
+      "total_pnl_usd": 310.02,
+      "win_rate": 0.5714,
+      "avg_roi": 0.0002,
+      "consecutive_losses": 0,
+      "inactive_days": 0.5,
+      "consistency": 0.9996,
+      "recency": 0.0,
+      "num_closed_trades": 7,
+      "current_prices_available": true,
+      "open_assets": 64,
+      "unpriced_open_assets": 63,
+      "metrics_mode": "real",
+      "total_trades_30d": 2235,
+      "score": 0.42854000000000003,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": false,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.5714,
+        "avg_roi": 0.0002,
+        "consistency": 0.9996,
+        "recency": 0.0
+      },
+      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
+      "name": "033",
+      "category": "Bond Markets"
+    },
+    {
+      "realized_pnl_usd": 9943.33,
       "unrealized_pnl_usd": 0.0,
-      "total_pnl_usd": 0.0,
+      "total_pnl_usd": 9943.33,
+      "win_rate": 0.52,
+      "avg_roi": 0.0175,
+      "consecutive_losses": 0,
+      "inactive_days": 9.1,
+      "consistency": 0.9817,
+      "recency": 0.0,
+      "num_closed_trades": 125,
+      "current_prices_available": false,
+      "open_assets": 21,
+      "unpriced_open_assets": 21,
+      "metrics_mode": "real",
+      "total_trades_30d": 586,
+      "score": 0.40959,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": true
+      },
+      "score_components": {
+        "win_rate": 0.52,
+        "avg_roi": 0.0175,
+        "consistency": 0.9817,
+        "recency": 0.0
+      },
+      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
+      "name": "ForesightOracle",
+      "category": "Bond Markets"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": -1364089.3,
+      "total_pnl_usd": -1364089.3,
       "win_rate": 0.0,
       "avg_roi": 0.0,
       "consecutive_losses": 0,
-      "inactive_days": 3.9,
+      "inactive_days": 4.0,
       "consistency": 0.0,
       "recency": 0.0,
       "num_closed_trades": 0,
-      "current_prices_available": false,
-      "open_assets": 1,
-      "unpriced_open_assets": 1,
+      "current_prices_available": true,
+      "open_assets": 72,
+      "unpriced_open_assets": 37,
       "metrics_mode": "real",
-      "total_trades_30d": 94,
+      "total_trades_30d": 3462,
       "score": 0.0,
       "threshold_flags": {
         "low_score": true,
@@ -102,53 +267,20 @@
     },
     {
       "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": 0.0,
-      "total_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 83.16,
+      "total_pnl_usd": 83.16,
       "win_rate": 0.0,
       "avg_roi": 0.0,
       "consecutive_losses": 0,
-      "inactive_days": 9.0,
-      "consistency": 0.0,
-      "recency": 0.0,
-      "num_closed_trades": 0,
-      "current_prices_available": false,
-      "open_assets": 2,
-      "unpriced_open_assets": 2,
-      "metrics_mode": "real",
-      "total_trades_30d": 98,
-      "score": 0.0,
-      "threshold_flags": {
-        "low_score": true,
-        "low_win_rate": true,
-        "high_consec_losses": false,
-        "high_inactive_days": true
-      },
-      "score_components": {
-        "win_rate": 0.0,
-        "avg_roi": 0.0,
-        "consistency": 0.0,
-        "recency": 0.0
-      },
-      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
-      "name": "ForesightOracle",
-      "category": "Bond Markets"
-    },
-    {
-      "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": 244.74,
-      "total_pnl_usd": 244.74,
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consecutive_losses": 0,
-      "inactive_days": 0.4,
+      "inactive_days": 0.0,
       "consistency": 0.0,
       "recency": 0.0,
       "num_closed_trades": 0,
       "current_prices_available": true,
-      "open_assets": 1,
-      "unpriced_open_assets": 0,
+      "open_assets": 295,
+      "unpriced_open_assets": 268,
       "metrics_mode": "real",
-      "total_trades_30d": 100,
+      "total_trades_30d": 3216,
       "score": 0.0,
       "threshold_flags": {
         "low_score": true,
@@ -162,24 +294,57 @@
         "consistency": 0.0,
         "recency": 0.0
       },
-      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
-      "name": "033",
+      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
+      "name": "Sharky6999",
       "category": "Bond Markets"
     },
     {
       "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": 0.06,
-      "total_pnl_usd": 0.06,
+      "unrealized_pnl_usd": 0.0,
+      "total_pnl_usd": 0.0,
       "win_rate": 0.0,
       "avg_roi": 0.0,
       "consecutive_losses": 0,
-      "inactive_days": 0.0,
+      "inactive_days": 0.7,
+      "consistency": 0.0,
+      "recency": 0.0,
+      "num_closed_trades": 0,
+      "current_prices_available": false,
+      "open_assets": 4,
+      "unpriced_open_assets": 4,
+      "metrics_mode": "real",
+      "total_trades_30d": 65,
+      "score": 0.0,
+      "threshold_flags": {
+        "low_score": true,
+        "low_win_rate": true,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 0.0,
+        "avg_roi": 0.0,
+        "consistency": 0.0,
+        "recency": 0.0
+      },
+      "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
+      "name": "Leaderboard Top",
+      "category": "External"
+    },
+    {
+      "realized_pnl_usd": 0.0,
+      "unrealized_pnl_usd": 39489.21,
+      "total_pnl_usd": 39489.21,
+      "win_rate": 0.0,
+      "avg_roi": 0.0,
+      "consecutive_losses": 0,
+      "inactive_days": 0.4,
       "consistency": 0.0,
       "recency": 0.0,
       "num_closed_trades": 0,
       "current_prices_available": true,
-      "open_assets": 13,
-      "unpriced_open_assets": 11,
+      "open_assets": 10,
+      "unpriced_open_assets": 7,
       "metrics_mode": "real",
       "total_trades_30d": 84,
       "score": 0.0,
@@ -195,126 +360,58 @@
         "consistency": 0.0,
         "recency": 0.0
       },
-      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
-      "name": "Sharky6999",
-      "category": "Bond Markets"
-    },
-    {
-      "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": -12.68,
-      "total_pnl_usd": -12.68,
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consecutive_losses": 0,
-      "inactive_days": 0.1,
-      "consistency": 0.0,
-      "recency": 0.0,
-      "num_closed_trades": 0,
-      "current_prices_available": true,
-      "open_assets": 4,
-      "unpriced_open_assets": 3,
-      "metrics_mode": "real",
-      "total_trades_30d": 94,
-      "score": 0.0,
-      "threshold_flags": {
-        "low_score": true,
-        "low_win_rate": true,
-        "high_consec_losses": false,
-        "high_inactive_days": false
-      },
-      "score_components": {
-        "win_rate": 0.0,
-        "avg_roi": 0.0,
-        "consistency": 0.0,
-        "recency": 0.0
-      },
-      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
-      "name": "xdd07070",
-      "category": "CSGo & LoL"
-    },
-    {
-      "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": 32.54,
-      "total_pnl_usd": 32.54,
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consecutive_losses": 0,
-      "inactive_days": 0.1,
-      "consistency": 0.0,
-      "recency": 0.0,
-      "num_closed_trades": 0,
-      "current_prices_available": true,
-      "open_assets": 7,
-      "unpriced_open_assets": 5,
-      "metrics_mode": "real",
-      "total_trades_30d": 95,
-      "score": 0.0,
-      "threshold_flags": {
-        "low_score": true,
-        "low_win_rate": true,
-        "high_consec_losses": false,
-        "high_inactive_days": false
-      },
-      "score_components": {
-        "win_rate": 0.0,
-        "avg_roi": 0.0,
-        "consistency": 0.0,
-        "recency": 0.0
-      },
-      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
-      "name": "rwo",
-      "category": "Random"
+      "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "name": "Leaderboard Top",
+      "category": "External"
     }
   ],
   "recommendations": [
     {
-      "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
-      "name": "LlamaEnjoyer",
-      "category": "High Frequency",
-      "score": 0.7777
+      "wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+      "name": "Leaderboard Top",
+      "category": "External",
+      "score": 0.8733000000000001
     },
     {
-      "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
-      "name": "BeefSlayer",
+      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
+      "name": "rwo",
       "category": "Random",
-      "score": 0.27104
+      "score": 0.72163
     },
     {
-      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
-      "name": "tbs8t",
-      "category": "NBA",
-      "score": 0.0
+      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
+      "name": "xdd07070",
+      "category": "CSGo & LoL",
+      "score": 0.6172000000000001
     }
   ],
   "remove_candidates": [
     {
+      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
+      "name": "xdd07070",
+      "category": "CSGo & LoL",
+      "score": 0.6172000000000001,
+      "win_rate": 0.8947,
+      "reasons": [
+        "score<0.7"
+      ]
+    },
+    {
+      "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
+      "name": "LlamaEnjoyer",
+      "category": "High Frequency",
+      "score": 0.55186,
+      "win_rate": 0.965,
+      "reasons": [
+        "score<0.7"
+      ]
+    },
+    {
       "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
       "name": "BeefSlayer",
       "category": "Random",
-      "score": 0.27104,
-      "win_rate": 0.0,
-      "reasons": [
-        "score<0.7",
-        "win_rate<0.55"
-      ]
-    },
-    {
-      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
-      "name": "tbs8t",
-      "category": "NBA",
-      "score": 0.0,
-      "win_rate": 0.0,
-      "reasons": [
-        "score<0.7",
-        "win_rate<0.55"
-      ]
-    },
-    {
-      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
-      "name": "ForesightOracle",
-      "category": "Bond Markets",
-      "score": 0.0,
-      "win_rate": 0.0,
+      "score": 0.48383000000000004,
+      "win_rate": 0.3955,
       "reasons": [
         "score<0.7",
         "win_rate<0.55"
@@ -324,6 +421,27 @@
       "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
       "name": "033",
       "category": "Bond Markets",
+      "score": 0.42854000000000003,
+      "win_rate": 0.5714,
+      "reasons": [
+        "score<0.7"
+      ]
+    },
+    {
+      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
+      "name": "ForesightOracle",
+      "category": "Bond Markets",
+      "score": 0.40959,
+      "win_rate": 0.52,
+      "reasons": [
+        "score<0.7",
+        "win_rate<0.55"
+      ]
+    },
+    {
+      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
+      "name": "tbs8t",
+      "category": "NBA",
       "score": 0.0,
       "win_rate": 0.0,
       "reasons": [
@@ -343,9 +461,9 @@
       ]
     },
     {
-      "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
-      "name": "xdd07070",
-      "category": "CSGo & LoL",
+      "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
+      "name": "Leaderboard Top",
+      "category": "External",
       "score": 0.0,
       "win_rate": 0.0,
       "reasons": [
@@ -354,9 +472,9 @@
       ]
     },
     {
-      "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
-      "name": "rwo",
-      "category": "Random",
+      "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "name": "Leaderboard Top",
+      "category": "External",
       "score": 0.0,
       "win_rate": 0.0,
       "reasons": [
@@ -369,5 +487,31 @@
     "min_score": 0.7,
     "min_win_rate": 0.55
   },
-  "new_candidates": []
+  "new_candidates": [
+    {
+      "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
+      "pnl": 636972.5240996608,
+      "vol": 1690505.6040680003
+    },
+    {
+      "wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
+      "pnl": 316044.06551995984,
+      "vol": 1378916.28
+    },
+    {
+      "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "pnl": 193258.29242129932,
+      "vol": 1972325.1042690002
+    },
+    {
+      "wallet": "0xe60a9b0be459d9849bc2339dac20517639ae6a47",
+      "pnl": 162069.63351527322,
+      "vol": 1035199.7954080001
+    },
+    {
+      "wallet": "0xe6a3778e5c3f93958534684ed7308b4625622f0d",
+      "pnl": 140735.2685932892,
+      "vol": 90166.96763900001
+    }
+  ]
 }
