@@ -1,16 +1,5 @@
 [
   {
-    "win_rate": 0.92,
-    "avg_roi": 0.42500000000000004,
-    "consistency": 0.8685210906218767,
-    "recency": 1,
-    "total_trades": 99,
-    "score": 0.7692042181243753,
-    "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
-    "name": "Sharky6999",
-    "category": "Bond Markets"
-  },
-  {
     "win_rate": 0.8,
     "avg_roi": 0.42500000000000004,
     "consistency": 0.8685210906218767,
@@ -31,6 +20,17 @@
     "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
     "name": "tbs8t",
     "category": "NBA"
+  },
+  {
+    "win_rate": 0.77,
+    "avg_roi": 0.42500000000000004,
+    "consistency": 0.8685210906218767,
+    "recency": 1,
+    "total_trades": 84,
+    "score": 0.7092042181243754,
+    "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
+    "name": "Sharky6999",
+    "category": "Bond Markets"
   },
   {
     "win_rate": 0.77,
