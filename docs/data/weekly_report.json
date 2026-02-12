@@ -8,6 +8,7 @@
       "recency": 1,
       "total_trades": 95,
       "score": 0.7212042181243754,
+      "metrics_mode": "mock",
       "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
       "name": "rwo",
       "category": "Random"
@@ -19,6 +20,7 @@
       "recency": 1,
       "total_trades": 94,
       "score": 0.7092042181243754,
+      "metrics_mode": "mock",
       "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
       "name": "tbs8t",
       "category": "NBA"
@@ -30,6 +32,7 @@
       "recency": 1,
       "total_trades": 84,
       "score": 0.7092042181243754,
+      "metrics_mode": "mock",
       "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
       "name": "Sharky6999",
       "category": "Bond Markets"
@@ -41,6 +44,7 @@
       "recency": 1,
       "total_trades": 94,
       "score": 0.7092042181243754,
+      "metrics_mode": "mock",
       "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
       "name": "xdd07070",
       "category": "CSGo & LoL"
@@ -52,6 +56,7 @@
       "recency": 1,
       "total_trades": 94,
       "score": 0.7092042181243754,
+      "metrics_mode": "mock",
       "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
       "name": "BeefSlayer",
       "category": "Random"
@@ -63,6 +68,7 @@
       "recency": 1,
       "total_trades": 81,
       "score": 0.6732042181243754,
+      "metrics_mode": "mock",
       "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
       "name": "LlamaEnjoyer",
       "category": "High Frequency"
@@ -74,6 +80,7 @@
       "recency": 1,
       "total_trades": 100,
       "score": 0.6612042181243754,
+      "metrics_mode": "mock",
       "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
       "name": "033",
       "category": "Bond Markets"
@@ -85,6 +92,7 @@
       "recency": 0.0,
       "total_trades": 98,
       "score": 0.6572042181243754,
+      "metrics_mode": "mock",
       "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
       "name": "ForesightOracle",
       "category": "Bond Markets"
@@ -110,5 +118,41 @@
       "score": 0.7092042181243754
     }
   ],
+  "remove_candidates": [
+    {
+      "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
+      "name": "LlamaEnjoyer",
+      "category": "High Frequency",
+      "score": 0.6732042181243754,
+      "win_rate": 0.68,
+      "reasons": [
+        "score<0.7"
+      ]
+    },
+    {
+      "wallet": "0xd1c769317bd15de7768a70d0214cf0bbcc531d2b",
+      "name": "033",
+      "category": "Bond Markets",
+      "score": 0.6612042181243754,
+      "win_rate": 0.65,
+      "reasons": [
+        "score<0.7"
+      ]
+    },
+    {
+      "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
+      "name": "ForesightOracle",
+      "category": "Bond Markets",
+      "score": 0.6572042181243754,
+      "win_rate": 0.89,
+      "reasons": [
+        "score<0.7"
+      ]
+    }
+  ],
+  "thresholds_used": {
+    "min_score": 0.7,
+    "min_win_rate": 0.55
+  },
   "new_candidates": []
 }
