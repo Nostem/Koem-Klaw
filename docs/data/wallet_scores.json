@@ -1,38 +1,5 @@
 [
   {
-    "realized_pnl_usd": 902.68,
-    "unrealized_pnl_usd": 0.0,
-    "total_pnl_usd": 902.68,
-    "win_rate": 1.0,
-    "avg_roi": 0.3299,
-    "consecutive_losses": 0,
-    "inactive_days": 0.9,
-    "consistency": 0.6133,
-    "recency": 1.0,
-    "num_closed_trades": 4,
-    "current_prices_available": false,
-    "open_assets": 126,
-    "unpriced_open_assets": 126,
-    "metrics_mode": "real",
-    "total_trades_30d": 3383,
-    "score": 0.72163,
-    "threshold_flags": {
-      "low_score": false,
-      "low_win_rate": false,
-      "high_consec_losses": false,
-      "high_inactive_days": false
-    },
-    "score_components": {
-      "win_rate": 1.0,
-      "avg_roi": 0.3299,
-      "consistency": 0.6133,
-      "recency": 1.0
-    },
-    "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
-    "name": "rwo",
-    "category": "Random"
-  },
-  {
     "realized_pnl_usd": 73750.78,
     "unrealized_pnl_usd": 1188.24,
     "total_pnl_usd": 74939.02,
@@ -99,22 +66,22 @@
     "category": "High Frequency"
   },
   {
-    "realized_pnl_usd": -498.11,
-    "unrealized_pnl_usd": 0.0,
-    "total_pnl_usd": -498.11,
-    "win_rate": 0.3955,
-    "avg_roi": 1.8545,
+    "realized_pnl_usd": -576.31,
+    "unrealized_pnl_usd": 132.16,
+    "total_pnl_usd": -444.16,
+    "win_rate": 0.3943,
+    "avg_roi": 1.8054,
     "consecutive_losses": 0,
-    "inactive_days": 0.7,
+    "inactive_days": 0.2,
     "consistency": 0.0406,
-    "recency": 0.162,
-    "num_closed_trades": 493,
-    "current_prices_available": false,
+    "recency": 0.1684,
+    "num_closed_trades": 492,
+    "current_prices_available": true,
     "open_assets": 325,
-    "unpriced_open_assets": 325,
+    "unpriced_open_assets": 319,
     "metrics_mode": "real",
-    "total_trades_30d": 2062,
-    "score": 0.48252,
+    "total_trades_30d": 2087,
+    "score": 0.48268000000000005,
     "threshold_flags": {
       "low_score": true,
       "low_win_rate": true,
@@ -122,10 +89,10 @@
       "high_inactive_days": false
     },
     "score_components": {
-      "win_rate": 0.3955,
+      "win_rate": 0.3943,
       "avg_roi": 1.0,
       "consistency": 0.0406,
-      "recency": 0.162
+      "recency": 0.1684
     },
     "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
     "name": "BeefSlayer",
@@ -198,6 +165,39 @@
     "category": "Bond Markets"
   },
   {
+    "realized_pnl_usd": -1.34,
+    "unrealized_pnl_usd": -243.19,
+    "total_pnl_usd": -244.53,
+    "win_rate": 0.1304,
+    "avg_roi": -0.0003,
+    "consecutive_losses": 6,
+    "inactive_days": 0.0,
+    "consistency": 0.9992,
+    "recency": 1.0,
+    "num_closed_trades": 23,
+    "current_prices_available": true,
+    "open_assets": 142,
+    "unpriced_open_assets": 137,
+    "metrics_mode": "real",
+    "total_trades_30d": 3370,
+    "score": 0.352,
+    "threshold_flags": {
+      "low_score": true,
+      "low_win_rate": true,
+      "high_consec_losses": true,
+      "high_inactive_days": false
+    },
+    "score_components": {
+      "win_rate": 0.1304,
+      "avg_roi": 0.0,
+      "consistency": 0.9992,
+      "recency": 1.0
+    },
+    "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
+    "name": "rwo",
+    "category": "Random"
+  },
+  {
     "realized_pnl_usd": 0.0,
     "unrealized_pnl_usd": -1364089.3,
     "total_pnl_usd": -1364089.3,
@@ -232,20 +232,20 @@
   },
   {
     "realized_pnl_usd": 0.0,
-    "unrealized_pnl_usd": 54.62,
-    "total_pnl_usd": 54.62,
+    "unrealized_pnl_usd": 173.95,
+    "total_pnl_usd": 173.95,
     "win_rate": 0.0,
     "avg_roi": 0.0,
     "consecutive_losses": 0,
-    "inactive_days": 0.6,
+    "inactive_days": 0.0,
     "consistency": 0.0,
     "recency": 0.0,
     "num_closed_trades": 0,
     "current_prices_available": true,
-    "open_assets": 295,
-    "unpriced_open_assets": 291,
+    "open_assets": 302,
+    "unpriced_open_assets": 294,
     "metrics_mode": "real",
-    "total_trades_30d": 3216,
+    "total_trades_30d": 3197,
     "score": 0.0,
     "threshold_flags": {
       "low_score": true,

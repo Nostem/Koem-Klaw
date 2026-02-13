@@ -77,7 +77,7 @@
     </div>
 
     <script>
-        const DATA_PATH = '../data/';
+        const DATA_PATH = './data/';
         
         async function loadJSON(file) {
             try {
@@ -91,13 +91,9 @@
         }
         
         async function getLatestReport() {
-            const dates = Array.from({length: 7}, (_, i) => {
-                const d = new Date(Date.now() - i * 86400000);
-                return d.toISOString().split('T')[0];
-            });
-            for (const date of dates) {
-                const rep = await loadJSON(`reports/${date}.json`);
-                if (rep) return rep;
+            const index = await loadJSON('reports/index.json');
+            if (Array.isArray(index) && index.length > 0) {
+                return await loadJSON(`reports/${index[0]}.json`);
             }
             return null;
         }
@@ -157,14 +153,13 @@
         }
         
         async function loadDaily() {
-            const dates = Array.from({length: 7}, (_, i) => {
-                const d = new Date(Date.now() - i * 86400000);
-                return d.toISOString().split('T')[0];
-            });
+            const index = await loadJSON('reports/index.json');
             const reports = [];
-            for (const date of dates) {
-                const rep = await loadJSON(`reports/${date}.json`);
-                if (rep) reports.push(rep);
+            if (Array.isArray(index)) {
+                for (const date of index) {
+                    const rep = await loadJSON(`reports/${date}.json`);
+                    if (rep) reports.push(rep);
+                }
             }
             const list = document.getElementById('reports-list');
             if (reports.length === 0) {
@@ -172,7 +167,7 @@
             } else {
                 list.innerHTML = reports.map(r => `
                     <div class="report-item" onclick="showReportDetails('${r.date}')">
-                        <strong>${r.date}</strong>: Total $${r.total_pnl.toFixed(2)}, Daily $${r.daily_pnl.toFixed(2)}
+                        <strong>${r.date}</strong>: Total $${Number(r.total_pnl || 0).toFixed(2)}, Daily $${Number(r.daily_pnl || 0).toFixed(2)}
                     </div>
                 `).join('');
             }
@@ -202,13 +197,16 @@
             const content = document.getElementById('weekly-content');
             if (weekly) {
                 content.innerHTML = `
-                    <p><strong>Week Ending:</strong> ${weekly.week_ending}</p>
+                    <p><strong>Week of (friendly date):</strong> ${new Date(weekly.week_ending).toLocaleDateString('en-US', {weekday: 'short', month: 'short', day: 'numeric', year: 'numeric'})}</p>
+                    <p><strong>Thresholds:</strong> score >= ${weekly.thresholds_used?.min_score ?? 'n/a'}, win rate >= ${weekly.thresholds_used?.min_win_rate ?? 'n/a'}</p>
                     <h3>Top Rankings</h3>
                     <ol>${(weekly.rankings || []).map(r => `<li>${r.name || (r.wallet ? r.wallet.slice(0,6)+'...' : 'Unknown')} (${r.category || 'N/A'}): ${(r.score * 100).toFixed(1)}%</li>`).join('')}</ol>
                     <h3>Recommendations</h3>
                     <ul class="recommendations">${(weekly.recommendations || []).map(w => `<li>${w.name || (w.wallet ? w.wallet.slice(0,6)+'...' : '')} - ${w.category || 'N/A'} (Score: ${(w.score * 100).toFixed(1)}%)</li>`).join('')}</ul>
+                    <h3>Remove Candidates</h3>
+                    <ul>${(weekly.remove_candidates || []).map(c => `<li>${c.name || c.wallet?.slice(0,6)} (${c.category || 'N/A'}) - score ${(Number(c.score || 0)*100).toFixed(1)}%, win ${(Number(c.win_rate || 0)*100).toFixed(1)}% — ${Array.isArray(c.reasons) ? c.reasons.join(', ') : ''}</li>`).join('') || '<li>None</li>'}</ul>
                     <h3>New Candidates</h3>
-                    <ul>${(weekly.new_candidates || []).map(c => `<li>${c.wallet.slice(0,6)}...: PnL $${(c.pnl || 0).toFixed(0)}, Vol $${(c.vol || 0).toFixed(0)}</li>`).join('')}</ul>
+                    <ul>${(weekly.new_candidates || []).map(c => `<li>${(c.wallet || '').slice(0,6)}...: PnL $${(c.pnl || 0).toFixed(0)}, Vol $${(c.vol || 0).toFixed(0)}</li>`).join('')}</ul>
                 `;
             } else {
                 content.innerHTML = '<p>No weekly report available.</p>';
