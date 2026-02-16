@@ -1,23 +1,23 @@
 {
-  "week_ending": "2026-02-12",
+  "week_ending": "2026-02-15",
   "rankings": [
     {
-      "realized_pnl_usd": 902.68,
-      "unrealized_pnl_usd": 32.54,
-      "total_pnl_usd": 935.22,
+      "realized_pnl_usd": 11.47,
+      "unrealized_pnl_usd": -151.81,
+      "total_pnl_usd": -140.35,
       "win_rate": 1.0,
-      "avg_roi": 0.3299,
+      "avg_roi": 0.1992,
       "consecutive_losses": 0,
-      "inactive_days": 0.3,
-      "consistency": 0.6133,
+      "inactive_days": 0.0,
+      "consistency": 0.7641,
       "recency": 1.0,
-      "num_closed_trades": 4,
+      "num_closed_trades": 3,
       "current_prices_available": true,
-      "open_assets": 126,
-      "unpriced_open_assets": 124,
+      "open_assets": 366,
+      "unpriced_open_assets": 350,
       "metrics_mode": "real",
-      "total_trades_30d": 3383,
-      "score": 0.72163,
+      "total_trades_30d": 3140,
+      "score": 0.71258,
       "threshold_flags": {
         "low_score": false,
         "low_win_rate": false,
@@ -26,8 +26,41 @@
       },
       "score_components": {
         "win_rate": 1.0,
-        "avg_roi": 0.3299,
-        "consistency": 0.6133,
+        "avg_roi": 0.1992,
+        "consistency": 0.7641,
+        "recency": 1.0
+      },
+      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
+      "name": "Sharky6999",
+      "category": "Bond Markets"
+    },
+    {
+      "realized_pnl_usd": 0.86,
+      "unrealized_pnl_usd": -77.55,
+      "total_pnl_usd": -76.69,
+      "win_rate": 1.0,
+      "avg_roi": 0.0082,
+      "consecutive_losses": 0,
+      "inactive_days": 0.0,
+      "consistency": 1.0,
+      "recency": 1.0,
+      "num_closed_trades": 4,
+      "current_prices_available": true,
+      "open_assets": 123,
+      "unpriced_open_assets": 121,
+      "metrics_mode": "real",
+      "total_trades_30d": 3353,
+      "score": 0.70246,
+      "threshold_flags": {
+        "low_score": false,
+        "low_win_rate": false,
+        "high_consec_losses": false,
+        "high_inactive_days": false
+      },
+      "score_components": {
+        "win_rate": 1.0,
+        "avg_roi": 0.0082,
+        "consistency": 1.0,
         "recency": 1.0
       },
       "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
@@ -36,20 +69,20 @@
     },
     {
       "realized_pnl_usd": 73750.78,
-      "unrealized_pnl_usd": -10428.46,
-      "total_pnl_usd": 63322.33,
+      "unrealized_pnl_usd": -10278.87,
+      "total_pnl_usd": 63471.91,
       "win_rate": 0.8947,
       "avg_roi": 0.3962,
       "consecutive_losses": 0,
-      "inactive_days": 0.1,
+      "inactive_days": 1.4,
       "consistency": 0.7023,
       "recency": 0.0,
       "num_closed_trades": 19,
       "current_prices_available": true,
-      "open_assets": 33,
-      "unpriced_open_assets": 30,
+      "open_assets": 34,
+      "unpriced_open_assets": 33,
       "metrics_mode": "real",
-      "total_trades_30d": 521,
+      "total_trades_30d": 522,
       "score": 0.6172000000000001,
       "threshold_flags": {
         "low_score": true,
@@ -68,22 +101,22 @@
       "category": "CSGo & LoL"
     },
     {
-      "realized_pnl_usd": 10331.28,
+      "realized_pnl_usd": 2663.16,
       "unrealized_pnl_usd": 0.0,
-      "total_pnl_usd": 10331.28,
-      "win_rate": 0.965,
-      "avg_roi": 0.2429,
+      "total_pnl_usd": 2663.16,
+      "win_rate": 0.997,
+      "avg_roi": 0.0073,
       "consecutive_losses": 0,
-      "inactive_days": 0.7,
-      "consistency": 0.391,
-      "recency": 0.1479,
-      "num_closed_trades": 1258,
+      "inactive_days": 0.6,
+      "consistency": 0.9818,
+      "recency": 0.1439,
+      "num_closed_trades": 1313,
       "current_prices_available": false,
-      "open_assets": 60,
-      "unpriced_open_assets": 60,
+      "open_assets": 39,
+      "unpriced_open_assets": 39,
       "metrics_mode": "real",
-      "total_trades_30d": 3393,
-      "score": 0.55186,
+      "total_trades_30d": 3445,
+      "score": 0.6117400000000001,
       "threshold_flags": {
         "low_score": true,
         "low_win_rate": false,
@@ -91,32 +124,32 @@
         "high_inactive_days": false
       },
       "score_components": {
-        "win_rate": 0.965,
-        "avg_roi": 0.2429,
-        "consistency": 0.391,
-        "recency": 0.1479
+        "win_rate": 0.997,
+        "avg_roi": 0.0073,
+        "consistency": 0.9818,
+        "recency": 0.1439
       },
       "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
       "name": "LlamaEnjoyer",
       "category": "High Frequency"
     },
     {
-      "realized_pnl_usd": -498.11,
-      "unrealized_pnl_usd": -15.27,
-      "total_pnl_usd": -513.39,
-      "win_rate": 0.3955,
-      "avg_roi": 1.8545,
+      "realized_pnl_usd": -375.44,
+      "unrealized_pnl_usd": 272.74,
+      "total_pnl_usd": -102.7,
+      "win_rate": 0.4219,
+      "avg_roi": 1.7672,
       "consecutive_losses": 0,
-      "inactive_days": 0.1,
-      "consistency": 0.0406,
-      "recency": 0.1726,
-      "num_closed_trades": 493,
+      "inactive_days": 0.0,
+      "consistency": 0.0413,
+      "recency": 0.2101,
+      "num_closed_trades": 512,
       "current_prices_available": true,
-      "open_assets": 325,
-      "unpriced_open_assets": 324,
+      "open_assets": 322,
+      "unpriced_open_assets": 314,
       "metrics_mode": "real",
-      "total_trades_30d": 2075,
-      "score": 0.48358,
+      "total_trades_30d": 2097,
+      "score": 0.49803,
       "threshold_flags": {
         "low_score": true,
         "low_win_rate": true,
@@ -124,10 +157,10 @@
         "high_inactive_days": false
       },
       "score_components": {
-        "win_rate": 0.3955,
+        "win_rate": 0.4219,
         "avg_roi": 1.0,
-        "consistency": 0.0406,
-        "recency": 0.1726
+        "consistency": 0.0413,
+        "recency": 0.2101
       },
       "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
       "name": "BeefSlayer",
@@ -135,20 +168,20 @@
     },
     {
       "realized_pnl_usd": 4.29,
-      "unrealized_pnl_usd": 305.73,
-      "total_pnl_usd": 310.02,
+      "unrealized_pnl_usd": 16.18,
+      "total_pnl_usd": 20.47,
       "win_rate": 0.5714,
       "avg_roi": 0.0002,
       "consecutive_losses": 0,
-      "inactive_days": 0.5,
+      "inactive_days": 0.0,
       "consistency": 0.9996,
       "recency": 0.0,
       "num_closed_trades": 7,
       "current_prices_available": true,
-      "open_assets": 64,
-      "unpriced_open_assets": 63,
+      "open_assets": 66,
+      "unpriced_open_assets": 64,
       "metrics_mode": "real",
-      "total_trades_30d": 2235,
+      "total_trades_30d": 2233,
       "score": 0.42854000000000003,
       "threshold_flags": {
         "low_score": true,
@@ -168,26 +201,26 @@
     },
     {
       "realized_pnl_usd": 9943.33,
-      "unrealized_pnl_usd": 0.0,
-      "total_pnl_usd": 9943.33,
+      "unrealized_pnl_usd": 503.57,
+      "total_pnl_usd": 10446.9,
       "win_rate": 0.52,
       "avg_roi": 0.0175,
       "consecutive_losses": 0,
-      "inactive_days": 9.1,
+      "inactive_days": 2.1,
       "consistency": 0.9817,
       "recency": 0.0,
       "num_closed_trades": 125,
-      "current_prices_available": false,
-      "open_assets": 21,
+      "current_prices_available": true,
+      "open_assets": 22,
       "unpriced_open_assets": 21,
       "metrics_mode": "real",
-      "total_trades_30d": 586,
+      "total_trades_30d": 665,
       "score": 0.40959,
       "threshold_flags": {
         "low_score": true,
         "low_win_rate": true,
         "high_consec_losses": false,
-        "high_inactive_days": true
+        "high_inactive_days": false
       },
       "score_components": {
         "win_rate": 0.52,
@@ -198,92 +231,26 @@
       "wallet": "0x7072dd52161bae614bec6905846a53c9a3a53413",
       "name": "ForesightOracle",
       "category": "Bond Markets"
-    },
-    {
-      "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": -1364089.3,
-      "total_pnl_usd": -1364089.3,
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consecutive_losses": 0,
-      "inactive_days": 4.0,
-      "consistency": 0.0,
-      "recency": 0.0,
-      "num_closed_trades": 0,
-      "current_prices_available": true,
-      "open_assets": 72,
-      "unpriced_open_assets": 37,
-      "metrics_mode": "real",
-      "total_trades_30d": 3462,
-      "score": 0.0,
-      "threshold_flags": {
-        "low_score": true,
-        "low_win_rate": true,
-        "high_consec_losses": false,
-        "high_inactive_days": false
-      },
-      "score_components": {
-        "win_rate": 0.0,
-        "avg_roi": 0.0,
-        "consistency": 0.0,
-        "recency": 0.0
-      },
-      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
-      "name": "tbs8t",
-      "category": "NBA"
-    },
-    {
-      "realized_pnl_usd": 0.0,
-      "unrealized_pnl_usd": 83.16,
-      "total_pnl_usd": 83.16,
-      "win_rate": 0.0,
-      "avg_roi": 0.0,
-      "consecutive_losses": 0,
-      "inactive_days": 0.0,
-      "consistency": 0.0,
-      "recency": 0.0,
-      "num_closed_trades": 0,
-      "current_prices_available": true,
-      "open_assets": 295,
-      "unpriced_open_assets": 268,
-      "metrics_mode": "real",
-      "total_trades_30d": 3216,
-      "score": 0.0,
-      "threshold_flags": {
-        "low_score": true,
-        "low_win_rate": true,
-        "high_consec_losses": false,
-        "high_inactive_days": false
-      },
-      "score_components": {
-        "win_rate": 0.0,
-        "avg_roi": 0.0,
-        "consistency": 0.0,
-        "recency": 0.0
-      },
-      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
-      "name": "Sharky6999",
-      "category": "Bond Markets"
     }
   ],
   "recommendations": [
     {
+      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
+      "name": "Sharky6999",
+      "category": "Bond Markets",
+      "score": 0.71258
+    },
+    {
       "wallet": "0xd189664c5308903476f9f079820431e4fd7d06f4",
       "name": "rwo",
       "category": "Random",
-      "score": 0.72163
+      "score": 0.70246
     },
     {
       "wallet": "0x25e28169faea17421fcd4cc361f6436d1e449a09",
       "name": "xdd07070",
       "category": "CSGo & LoL",
       "score": 0.6172000000000001
-    },
-    {
-      "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
-      "name": "LlamaEnjoyer",
-      "category": "High Frequency",
-      "score": 0.55186
     }
   ],
   "remove_candidates": [
@@ -301,8 +268,8 @@
       "wallet": "0x9b979a065641e8cfde3022a30ed2d9415cf55e12",
       "name": "LlamaEnjoyer",
       "category": "High Frequency",
-      "score": 0.55186,
-      "win_rate": 0.965,
+      "score": 0.6117400000000001,
+      "win_rate": 0.997,
       "reasons": [
         "score<0.7"
       ]
@@ -311,8 +278,8 @@
       "wallet": "0x331bf91c132af9d921e1908ca0979363fc47193f",
       "name": "BeefSlayer",
       "category": "Random",
-      "score": 0.48358,
-      "win_rate": 0.3955,
+      "score": 0.49803,
+      "win_rate": 0.4219,
       "reasons": [
         "score<0.7",
         "win_rate<0.55"
@@ -338,28 +305,6 @@
         "score<0.7",
         "win_rate<0.55"
       ]
-    },
-    {
-      "wallet": "0x4bd74aef0ee5f1ec0718890f55c15f047e28373e",
-      "name": "tbs8t",
-      "category": "NBA",
-      "score": 0.0,
-      "win_rate": 0.0,
-      "reasons": [
-        "score<0.7",
-        "win_rate<0.55"
-      ]
-    },
-    {
-      "wallet": "0x751a2b86cab503496efd325c8344e10159349ea1",
-      "name": "Sharky6999",
-      "category": "Bond Markets",
-      "score": 0.0,
-      "win_rate": 0.0,
-      "reasons": [
-        "score<0.7",
-        "win_rate<0.55"
-      ]
     }
   ],
   "thresholds_used": {
@@ -368,87 +313,87 @@
   },
   "new_candidates": [
     {
-      "wallet": "0x876426b52898c295848f56760dd24b55eda2604a",
-      "display_name": "0x8764...604a",
-      "profile_url": "https://polymarket.com/profile/0x876426b52898c295848f56760dd24b55eda2604a",
+      "wallet": "0xc257ea7e3a81ca8e16df8935d44d513959fa358e",
+      "display_name": "FollowMeABC123",
+      "profile_url": "https://polymarket.com/@FollowMeABC123",
       "rank": "1",
-      "pnl": 636972.5240996606,
-      "volume": 1690505.604068,
-      "recent_trades": 165,
-      "buys": 165,
-      "sells": 0,
-      "top_markets": [
-        "Trail Blazers vs. Timberwolves",
-        "Grizzlies vs. Nuggets",
-        "Clippers vs. Rockets"
-      ],
-      "trade_style": "position builder"
-    },
-    {
-      "wallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
-      "display_name": "Latina",
-      "profile_url": "https://polymarket.com/@Latina",
-      "rank": "2",
-      "pnl": 316044.06551995984,
-      "volume": 1378916.28,
+      "pnl": 167329.799404961,
+      "volume": 490363.03290899994,
       "recent_trades": 200,
-      "buys": 197,
-      "sells": 3,
+      "buys": 199,
+      "sells": 1,
       "top_markets": [
-        "Spread: Michigan Wolverines (-18.5)",
-        "Oregon vs. Indiana",
-        "Spread: Spurs (-12.5)"
+        "LoL: T1 vs BNK FEARX (BO5) - LCK Cup Playoffs",
+        "Counter-Strike: Team Falcons vs FaZe (BO3) - PGL Cluj-Napoca Group Stage",
+        "LoL: Ground Zero Gaming vs Deep Cross Gaming (BO5) - LCP Playoffs"
       ],
       "trade_style": "position builder"
     },
     {
-      "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "display_name": "gmanas",
-      "profile_url": "https://polymarket.com/@gmanas",
+      "wallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
+      "display_name": "0x4924...3782",
+      "profile_url": "https://polymarket.com/profile/0x492442eab586f242b53bda933fd5de859c8a3782",
+      "rank": "2",
+      "pnl": 145571.22760653496,
+      "volume": 342670.96208100003,
+      "recent_trades": 149,
+      "buys": 149,
+      "sells": 0,
+      "top_markets": [
+        "CD Guadalajara vs. CF Am\u00e9rica: O/U 2.5",
+        "Amiens SC vs. USL Dunkerque: O/U 2.5",
+        "Hamburger SV vs. 1. FC Union Berlin: O/U 2.5"
+      ],
+      "trade_style": "position builder"
+    },
+    {
+      "wallet": "0x5c2bd19cb9bb241f864a057e4b2da6d2a3d62575",
+      "display_name": "greatscott44",
+      "profile_url": "https://polymarket.com/@greatscott44",
       "rank": "3",
-      "pnl": 222640.077432887,
-      "volume": 1990315.8942690005,
-      "recent_trades": 179,
-      "buys": 179,
+      "pnl": 118142.8216438131,
+      "volume": 285197.4303880001,
+      "recent_trades": 178,
+      "buys": 178,
       "sells": 0,
       "top_markets": [
-        "Will FC Barcelona win on 2026-02-12?",
-        "Penn State Nittany Lions vs. Washington Huskies",
-        "Will Club Atl\u00e9tico de Madrid win on 2026-02-12?"
+        "Troy Trojans vs. Southern Miss Golden Eagles: O/U 144.5",
+        "Nevada Wolf Pack vs. San Diego State Aztecs: O/U 140.5",
+        "UC Riverside Highlanders vs. California-San Diego Tritons: O/U 145.5"
       ],
       "trade_style": "position builder"
     },
     {
-      "wallet": "0xe60a9b0be459d9849bc2339dac20517639ae6a47",
-      "display_name": "0xe60a...6a47",
-      "profile_url": "https://polymarket.com/profile/0xe60a9b0be459d9849bc2339dac20517639ae6a47",
+      "wallet": "0x2537fa3357f0e42fa283b8d0338390dda0b6bff9",
+      "display_name": "herewego446",
+      "profile_url": "https://polymarket.com/@herewego446",
       "rank": "4",
-      "pnl": 154971.4855923152,
-      "volume": 1097860.00849,
-      "recent_trades": 192,
-      "buys": 192,
+      "pnl": 117372.96598985395,
+      "volume": 2455.25,
+      "recent_trades": 168,
+      "buys": 168,
       "sells": 0,
       "top_markets": [
-        "Mavericks vs. Lakers",
-        "Spread: Lakers (-7.5)",
-        "Men's Group B - Finland vs. Sweden"
+        "Mississippi State Bulldogs vs. Ole Miss Rebels: O/U 144.5",
+        "South Dakota State Jackrabbits vs. Oral Roberts Golden Eagles: O/U 147.5",
+        "Sacramento State Hornets vs. Northern Arizona Lumberjacks: O/U 155.5"
       ],
       "trade_style": "position builder"
     },
     {
-      "wallet": "0xe6a3778e5c3f93958534684ed7308b4625622f0d",
-      "display_name": "0xe6a3...2f0d",
-      "profile_url": "https://polymarket.com/profile/0xe6a3778e5c3f93958534684ed7308b4625622f0d",
+      "wallet": "0x13414a77a4be48988851c73dfd824d0168e70853",
+      "display_name": "WOMENBESHOPPING",
+      "profile_url": "https://polymarket.com/@WOMENBESHOPPING",
       "rank": "5",
-      "pnl": 140735.26859195507,
-      "volume": 90166.967639,
-      "recent_trades": 186,
-      "buys": 181,
-      "sells": 5,
+      "pnl": 97707.38715024771,
+      "volume": 256344.49289199995,
+      "recent_trades": 200,
+      "buys": 200,
+      "sells": 0,
       "top_markets": [
-        "Spurs vs. Warriors",
-        "Grizzlies vs. Nuggets",
-        "Spurs vs. Lakers"
+        "LoL: T1 vs BNK FEARX - Game 1 Winner",
+        "LoL: T1 vs BNK FEARX (BO5) - LCK Cup Playoffs",
+        "LoL: T1 vs BNK FEARX - Game 2 Winner"
       ],
       "trade_style": "position builder"
     }
